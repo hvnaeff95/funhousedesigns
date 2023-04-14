@@ -1,0 +1,104 @@
+html { background: #923232; }
+body { background: #2f2b2b; width: 1400px; margin: 0 auto; padding: 2rem;
+  
+ font-family: 'Raleway', serif;
+line-height: 1.75;
+    }
+h1 { 
+   font-family: 'Pirata One', cursive;
+ }
+h2 { font-family: 'Pirata One', cursive; }
+
+h3 { font-family: 'Pirata One', cursive; } 
+
+li { font-family: 'Pirata One', cursive; }
+
+ul { list-style-type: none; margin: 0; padding: 0;  }
+
+body {
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    color:#faed38
+}
+
+.header {
+    background-color: #5b90d8;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: #404d5f
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #5b90d8;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #faed38;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #46cade;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 100%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 98%;
+    background-color: #5b90d8;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #5b90d8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #5b90d8;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px)
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
